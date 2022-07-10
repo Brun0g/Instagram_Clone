@@ -7,9 +7,7 @@
 body {
     background-color: #fafafa !important;
 }
-section {
-    background-color: #fafafa !important;
-}
+
 /* nav-bar */                               
 #nav-bar-insta {
     background-color: #ffffff;
@@ -202,9 +200,6 @@ header {
 }
 #header-middle .header-about_2 {
     margin-top: 15px;
-}
-#header-middle .header-about-bold {
-    font-weight: 600;
 }
 /* end init header  */  
 /* carousel instagram storys */
@@ -450,13 +445,6 @@ footer .footer-content a {
         padding: 5px;
     }
     /* end header switch */
-    .bold {
-        font-weight: 600;
-    }
-    .bold-1 {
-        font-weight: normal;
-        color: hsla(210, 9%, 31%, 0.706);
-    }
     .header-about-number {
         padding: 3px;
         display: flex;
