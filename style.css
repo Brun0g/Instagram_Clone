@@ -7,7 +7,6 @@
 body {
     background-color: #fafafa !important;
 }
-
 /* nav-bar */                               
 .nav-bar-insta-v2 {
     background-color: #ffffff;
@@ -53,7 +52,6 @@ body {
     position: relative;
     border: 5px solid red;
     float: left;
-
 }
 .search4 svg {
     margin-left: 10px;
@@ -77,7 +75,6 @@ body {
     display: flex;
 }
 /* end nav-bar */
-
 /* switch-display */
 .header-display-switch {
     display: none;
@@ -243,7 +240,6 @@ header {
     transform: rotateZ(-45deg);
 }
 /* end carousel instagram storys */ 
-
 /* feed */
 #feed {
     display: flex;
@@ -569,5 +565,4 @@ footer .footer-content a {
         height: 70px;
     }
 }
-
 /* 568 */
