@@ -169,6 +169,7 @@ header {
     color: white;
     width: 35px;
     padding: 3px;
+    margin-left: 5px;
     border-radius: 3px;
 }
 #header-middle .button-style-text-1 {
