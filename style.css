@@ -9,83 +9,70 @@ body {
 }
 
 /* nav-bar */                               
-#nav-bar-insta {
+.nav-bar-insta-v2 {
     background-color: #ffffff;
     display: flex;
-    width: 100%;
-    height: 7vh;
-    position: fixed;
-    border-bottom: 1px solid hsla(0, 0%, 0%, 0.123);
-    z-index: 10;
-}
-#nav-bar-insta .nav-bar-insta-v2 {
-    display: flex;
-    padding: 0 20px 0 20px;
     justify-content: center;
     width: 100%;
+    position: fixed;
+    height: 7vh;
+    z-index: 10;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.123);
 }
-#nav-bar-insta .nav-bar-insta-v2 .nav-bar-insta-v3 {
+.nav-bar-insta-v2 .nav-bar-insta-v3 {
     display: flex;
     width: 975px;
     justify-content: space-between;
 }
-#nav-bar-insta .logo-insta {
+.logo-insta {
     display: flex;
     padding: 3px; 
     align-items: center;
 }
-#nav-bar-insta .logo-insta img {
+.logo-insta img {
     width: 105px;
     margin: 7px 0px 0px 15px;
 }
-#nav-bar-insta .input-text {
+.input-text {
     display: flex;
     align-items: center;
-    margin-left: 150px;
-}
-#nav-bar-insta .search2 {
-    color: rgb(142, 142, 142);
-    display: flex;
-    width: 20vw;
-    padding: 1px;
-    justify-content: center;
-    width: 100%;
-}
-#nav-bar-insta .search3{
-    align-items: center;
-    display: flex;
-    width: 15vw;
-    height: 4vh;
+    margin-top: 15px;
+    margin-left: 30px;
     border-radius: 5px;
-    justify-content: start;
-    text-align: center;
-    background-color: #efefef;
+    width: 13vw;
+    height: 4vh;
 }
-#nav-bar-insta .search4 {
+.input-text:hover {
+    background-color:rgba(142, 142, 142, 15%);
+}
+.search4 {
     display: flex;
     font-weight: 300;
     padding: 2px;
     margin-right: 10px;
     position: relative;
+    border: 5px solid red;
+    float: left;
+
 }
-#nav-bar-insta .search4 svg {
+.search4 svg {
     margin-left: 10px;
 }
-#nav-bar-insta .icon {
+.icon {
     display: flex;
     width: 275px;
     align-items: center;
 }
-#nav-bar-insta .icon-1 {
+.icon-1 {
     margin: 8px;
 }
-#nav-bar-insta .img-radius-perfil {
+.img-radius-perfil {
     border-radius: 60%;
     width: 23px;
     display: flex;
     margin-left: 3px;
 }
-#nav-bar-insta .icon-1 a svg {
+.icon-1 a svg {
     width: 30px;
     display: flex;
 }
@@ -582,3 +569,5 @@ footer .footer-content a {
         height: 70px;
     }
 }
+
+/* 568 */
