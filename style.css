@@ -545,7 +545,7 @@ footer .footer-content a {
     }
 }
 @media screen and (max-width: 740px) {
-    #nav-bar-insta .input-text {
+    .input-text {
         display: none;
     }
 }
